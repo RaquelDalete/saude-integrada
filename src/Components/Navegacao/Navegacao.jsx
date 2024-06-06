@@ -5,8 +5,6 @@ import Carregamento from '../Carregamento/Carregamento.jsx';
 import Login from '../Login/Login.jsx';
 import Ajuda from '../Ajuda/Ajuda.jsx'
 import * as S from '../Navegacao/StyleNavegacao.jsx'
-// import Agenda from '../Img/agenda.png'
-// import Cadastro from '../Img/cadastro.png'
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -22,7 +20,6 @@ return(
         {/* <img src={Cadastro} alt=" cadastro" /> */}
         <li><Link to="/Cadastro">Cadastro</Link></li>
         <li><Link to="/Carregamento">Carregamento</Link> </li>
-        <li><Link to="/Especialistas">Especialistas</Link> </li>
         <li><Link to="/Ajuda">Ajuda</Link></li>
         <li></li>
     </S.Lista>
@@ -33,6 +30,7 @@ return(
 <Route path="Cadastro" element={<Cadastro />} />
 <Route path="Carregamento" element={<Carregamento />} />
 <Route path="Login" element={<Login />} />
+<Route path="Ajuda" element={<Ajuda />} />
 
 
  </Routes>
