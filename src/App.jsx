@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  font-family: "Inter", sans-serif;
 }
 `
 function App(){

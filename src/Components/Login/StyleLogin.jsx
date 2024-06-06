@@ -1,3 +1,2 @@
 import React from 'react'
-
-import * as S from './Style.jsx';
+import Styled from'styled-components';

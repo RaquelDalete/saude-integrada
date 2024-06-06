@@ -1,9 +1,10 @@
 import React from 'react'
+import * as S from '../Cadastro/StyleCadastro.jsx'
 
 function Cadastro(){
 return(
 
-<h1>Cadastro</h1>
+<h3>Cadastro</h3>
 )
 
 }

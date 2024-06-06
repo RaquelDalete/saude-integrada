@@ -1,11 +1,12 @@
 import React from 'react'
+import * as S from '../Carregamento/StyleCarregamento.jsx'
 
 function Carregamento(){
 return(
 
-<h1>Carregamento</h1>
+<h2>Carregamento</h2>
 )
 
 }
 
-export default Cadastro;
+export default Carregamento;
