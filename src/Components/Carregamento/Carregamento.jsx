@@ -3,8 +3,9 @@ import * as S from '../Carregamento/StyleCarregamento.jsx'
 
 function Carregamento(){
 return(
+    <input type="text" placeholder='Nome completo'/>
 
-<h2>Carregamento</h2>
+
 )
 
 }
