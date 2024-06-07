@@ -9,7 +9,6 @@ align-items: center;
 `
 export const Img = styled.img`
 width: 30vw;
-border: solid red;
 `
 export const H1 = styled.h1`
 font-size: 2rem;

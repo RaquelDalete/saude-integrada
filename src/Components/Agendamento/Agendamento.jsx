@@ -82,19 +82,15 @@ return(
 <S.DivE>
 <S.H2>Pagamento</S.H2>
 
-<figure>
-    {/* <img src="" alt="Descrição da imagem"> */}
-    <figcaption>Cartão de Crédito</figcaption>
-</figure>
-
-<figure>
-    {/* <img src="" alt="Descrição da imagem"> */}
-    <figcaption>Cartão de Dédito</figcaption>
-</figure>
+<S.DivE>
+<label for="Cartão de Crédito"><input  type="radio" name="pagamento" id="Cartão de Crédito"/>Cartão de Crédito</label>
+<label for="Cartão de Dédito"><input  type="radio" name="pagamento" id="Cartão de Dédito"/>Cartão de Dédito</label>
 
 <input type="number"  placeholder='Número do Cartão'/>
 
 <S.H2>Pix</S.H2>
+</S.DivE>
+
 </S.DivE>
 
 <S.DivE>
@@ -115,12 +111,8 @@ return(
 </S.DivE>
 
 <S.DivE>
-    <S.H2>Link da Chamada:https: //www.videochamada.com.br/search?q=sol&oq=sol&gs_lcrp=Eg</S.H2>
+    <S.H2Link>Link da Chamada:https: //www.videochamada.com.br/search?q=sol&oq=sol&gs_lcrp=Eg</S.H2Link>
 
-</S.DivE>
-
-<S.DivE>
-    {/* <img src="" alt="" /> */}
     <button>Exames</button>
 </S.DivE>
 

@@ -70,8 +70,10 @@ background-color:  #d7edf1;
 
 export const DivE = styled.div`
 width: 20vw;
-height: 30vh;
+height: 50vh;
 background-color:  #d7edf1;
 
 `
-
+export const H2Link = styled.h2`
+font-size: 1rem;
+`

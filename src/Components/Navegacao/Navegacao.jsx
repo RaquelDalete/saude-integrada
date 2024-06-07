@@ -4,7 +4,6 @@ import Agendamento from '../Agendamento/Agendamento.jsx'
 import Cadastro from '../Cadastro/Cadastro.jsx';
 import Login from '../Login/Login.jsx';
 import Ajuda from '../Ajuda/Ajuda.jsx'
-import Teste from '../Teste/Teste.jsx'
 import * as S from '../Navegacao/StyleNavegacao.jsx'
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -20,7 +19,7 @@ return(
         <S.Li><Link to="/Cadastro">Cadastro</Link></S.Li>
         <S.Li><Link to="/Agendamento">Agendamento</Link></S.Li>
         <S.Li><Link to="/Ajuda">Ajuda</Link></S.Li>
-        <S.Li><Link to="/Teste">Teste</Link></S.Li>
+       
        
     </S.Lista>
 </nav>
@@ -31,7 +30,6 @@ return(
 <Route path="Login" element={<Login />} />
 <Route path="Agendamento" element={<Agendamento />} />
 <Route path="Ajuda" element={<Ajuda />} />
-<Route path="Teste" element={<Teste />} />
 
  </Routes>
 </BrowserRouter>
