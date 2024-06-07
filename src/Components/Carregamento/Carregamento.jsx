@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../Img/log.png';
+import Logo from '../Img/log.png'
 
 function Carregamento(){
 return(
