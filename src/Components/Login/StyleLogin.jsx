@@ -8,7 +8,7 @@ display: flex;
 align-items: center;
 `
 export const H1 = styled.h1`
-font-size: 1.3rem;
+font-size: 2rem;
 `
 export const Div = styled.div`
 width: 40vw;
