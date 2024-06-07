@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const MainAjuda =styled.main`
 width: 100vw;
 height: 120vh;
-background-color: #4F9CAF;
+background-color: #ffffff;
 display: flex;
 align-items: center;
 `

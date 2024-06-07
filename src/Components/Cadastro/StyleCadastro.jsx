@@ -5,7 +5,7 @@ height: 100vh;
 display: flex;
 align-items: center;
 flex-direction: column;
-background-color: #4F9CAF;
+background-color: #fafafa;
 `
 export const H2 =styled.h2`
 font-size: 3rem;

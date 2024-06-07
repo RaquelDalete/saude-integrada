@@ -7,11 +7,18 @@ height: 20vh;
 
 export const Lista = styled.ul`
 width: 100%;
-background-color: #4F9CAF;
+background-color: #00CFFF;
 display: flex;
 justify-content: space-around;
 align-items: center;
 list-style: none;
+text-decoration: none;
 height: 10vh;
 `
+
+export const Li = styled.li`
+font-size: 2rem;
+color: #1C304A;
+`
+
 

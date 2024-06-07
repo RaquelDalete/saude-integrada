@@ -1,11 +1,11 @@
 import React from 'react'
 import * as S from '../Login/StyleLogin.jsx'
-
+import Logo from '../Img/log.png'
 
 function Login(){
 return(
 <S.Main>
-
+<S.Img src={Logo} alt="logo de um coraçao" />
 <S.Div>
 <S.H1>Login</S.H1>
 
@@ -18,7 +18,7 @@ return(
 <S.H2>Esqueceu a Senha?</S.H2>
 
 
-<input type="submit" value="Acessar" />
+<S.Button>Acessar</S.Button>
 
 <S.H2>Não possue uma conta? Cadastre-se</S.H2>
 

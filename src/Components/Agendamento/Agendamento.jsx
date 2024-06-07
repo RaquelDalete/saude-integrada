@@ -1,13 +1,15 @@
 import React from 'react'
 import Calendario from '../Img/calendario.png'
+import * as S from '../Ajuda/StyleAjuda.jsx'
 
 function Agendamento(){
 return(
 <main>
+
 <h2>Agendamento</h2>
 <img src={Calendario} alt="calendario" />
 
-<div>
+<S.Div>
 <h3>Pediatras</h3>
 <h3>Especialistas</h3>
 <label for="Dra Débora">Dra Débora</label>
@@ -27,7 +29,7 @@ return(
 <input  type="radio" name="hora" id="16hr"/>
 
 <button>Enviar</button>
-</div>
+</S.Div>
 
 <div>
 <h3>Clínico Geral</h3>
@@ -68,12 +70,19 @@ return(
 
 <input type="number" placeholder='Número da Carteirinha'/>
 
+<div>
 <h2>Pagemento</h2>
 
 <figure>
     {/* <img src="" alt="Descrição da imagem"> */}
-    <figcaption>Legenda ou descrição alternativa da imagem.</figcaption>
+    <figcaption>Cartão de Crédito</figcaption>
 </figure>
+
+<figure>
+    {/* <img src="" alt="Descrição da imagem"> */}
+    <figcaption>Cartão de Crédito</figcaption>
+</figure>
+</div>
 
 
 
