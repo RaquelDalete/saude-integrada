@@ -19,7 +19,7 @@ align-items: center;
 /* margin-top:15rem; */
 margin-left: 28rem;
 border-radius: 20px;
-background-color: #6172cb;
+background-color: #a0d5f2;
 `
 export const Label = styled.label`
 margin-top: 1rem;

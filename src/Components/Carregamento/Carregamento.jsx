@@ -3,9 +3,12 @@ import * as S from '../Carregamento/StyleCarregamento.jsx'
 
 function Carregamento(){
 return(
-    <input type="text" placeholder='Nome completo'/>
+    <S.Main>
+<h2> Carregamento</h2>
 
+<h3>Sua saúde na palma da mão</h3>
 
+    </S.Main>
 )
 
 }
