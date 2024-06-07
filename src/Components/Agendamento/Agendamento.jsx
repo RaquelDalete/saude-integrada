@@ -1,17 +1,17 @@
 import React from 'react'
 import Calendario from '../Img/calendario.png'
-import * as S from '../Ajuda/StyleAjuda.jsx'
+import * as S from '../Agendamento/StyleAgendamento.jsx'
 
 function Agendamento(){
 return(
 <main>
 
 <h2>Agendamento</h2>
-<img src={Calendario} alt="calendario" />
+<S.Img src={Calendario} alt="calendario" />
 
 <S.Div>
-<h3>Pediatras</h3>
-<h3>Especialistas</h3>
+<S.H2>Pediatras</S.H2>
+<S.H3>Especialistas</S.H3>
 <label for="Dra Débora">Dra Débora</label>
 <input  type="radio" name="especialistas" id="Dra Débora"/>
 <label for="Dra Lorrayne">Dra Lorrayne</label>
@@ -20,7 +20,7 @@ return(
 <input  type="radio" name="especialistas" id="Dra Grazi"/>
 
 
-<h3>Hora</h3>
+<S.H3>Hora</S.H3>
 <label for="12hr">12:00</label>
 <input  type="radio" name="hora" id="12hr"/>
 <label for="14hr">14:00</label>
@@ -28,12 +28,12 @@ return(
 <label for="16hr">16:00</label>
 <input  type="radio" name="hora" id="16hr"/>
 
-<button>Enviar</button>
+<S.Button>Enviar</S.Button>
 </S.Div>
 
-<div>
-<h3>Clínico Geral</h3>
-<h3>Especialistas</h3>
+<S.Div>
+<S.H2>Clínico Geral</S.H2>
+<S.H3>Especialistas</S.H3>
 <label for="Dra Danielle">Dra Danielle</label>
 <input  type="radio" name="especialistas" id="Dra Danielle"/>
 <label for="Dra Raquel">Dra Raquel</label>
@@ -42,7 +42,7 @@ return(
 <input  type="radio" name="especialistas" id="Dra Karynne"/>
 
 
-<h3>Hora</h3>
+<S.H3>Hora</S.H3>
 <label for="12hr">12:00</label>
 <input  type="radio" name="hora" id="12hr"/>
 <label for="14hr">14:00</label>
@@ -50,18 +50,20 @@ return(
 <label for="16hr">16:00</label>
 <input  type="radio" name="hora" id="16hr"/>
 
-<button>Enviar</button>
-</div>
+<S.Button>Enviar</S.Button>
+</S.Div>
 
-<h2>Formas de Pagamento</h2>
-<h3>Valor da consulta R$800,00</h3>
+
+<S.Div>
+<S.H2>Formas de Pagamento</S.H2>
+<S.H3>Valor da consulta R$800,00</S.H3>
 
 <label for="Particular">Particular</label>
 <input  type="radio" name="pagamento" id="Particular"/>
 <label for="Convênio">Convênio</label>
 <input  type="radio" name="pagamento" id="Convênio"/>
 
-<h2>Convênio</h2>
+<S.H2>Convênio</S.H2>
 <label for="Bradesco">Bradesco</label>
 <input  type="radio" name="convenio" id="Bradesco"/>
 <label for="Unimed">Unimed</label>
@@ -70,8 +72,10 @@ return(
 
 <input type="number" placeholder='Número da Carteirinha'/>
 
+</S.Div>
+
 <div>
-<h2>Pagemento</h2>
+<S.H2>Pagemento</S.H2>
 
 <figure>
     {/* <img src="" alt="Descrição da imagem"> */}

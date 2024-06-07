@@ -17,7 +17,7 @@ return(
 
 </S.Div>
 
-<button>Enviar</button>
+<S.Button>Enviar</S.Button>
 
 
 

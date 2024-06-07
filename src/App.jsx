@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 `
 function App(){

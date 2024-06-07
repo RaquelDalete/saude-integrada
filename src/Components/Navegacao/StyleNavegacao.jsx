@@ -11,8 +11,6 @@ background-color: #00CFFF;
 display: flex;
 justify-content: space-around;
 align-items: center;
-list-style: none;
-text-decoration: none;
 height: 10vh;
 `
 

@@ -29,6 +29,7 @@ background-color: #046B99;
 export const Label = styled.label`
 margin-top: 1rem;
 font-size: 1rem;
+color: #046B99;
 
 `
 export const Button =styled.button`
